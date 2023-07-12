@@ -1,0 +1,19 @@
+.logo .icone{
+    color: var(--SecondaryColor);
+}
+.bouton{
+    padding: .6rem 1.5rem;
+    background: var(--SecondaryColor);
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.bouton a{
+    color: var(--whiteColor);
+    font-weight: 500;
+}
+
+.bouton:hover{
+    background: var(--SecondaryColor);
+}

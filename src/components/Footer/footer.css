@@ -1,0 +1,25 @@
+.footer{
+  background-image: url(../../assets/images/bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .inputEmail{
+    border-radius: 3rem;
+    border: 1px solid var(--SecondaryColor);
+    padding: .6rem 1.5rem;
+}
+.footer .send{
+    padding: .6rem 1.5rem;
+    background: var(--SecondaryColor);
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+.footer .icone{
+    color: var(--SecondaryColor);
+}
+.footer .card-footer{
+    background-color: var(--SecondaryColor);
+}
