@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io"
 
 const Footer = () => {
   return (
-    <div className="footer container-fluid p-5">
+    <div className="footer container-fluid py-5 vh-75">
       <div className="d-flex justify-content-center align-items-center mb-5">
         <div className="row justify-content-center align-items-center">
           <div className="col-lg-6 col-md-6 col-sm-12">

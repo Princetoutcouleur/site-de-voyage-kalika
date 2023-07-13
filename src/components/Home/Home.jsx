@@ -10,7 +10,7 @@ import { AiOutlinePlusSquare } from "react-icons/ai";
 const Home = () => {
   return (
     <div className="home container-fluid vh-100 mt-5 d-flex justify-content-center align-items-center">
-      <div className="w-100">
+      <div className="w-100 container">
         <p className="text-uppercase text-light">our packages</p>
         <h1 className="text-light">
           Search your{" "}
@@ -19,7 +19,7 @@ const Home = () => {
         <div class="card bg-light mt-5 p-3 mb-5">
           <div class="card-body">
             <div className="row">
-              <div className="col-lg-4 col-md-4 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12">
                 <div class="mb-3">
                   <label for="cityInput" class="form-label">
                     Search your destination
@@ -32,7 +32,7 @@ const Home = () => {
                   />
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12">
                 <div class="mb-3">
                   <label for="dateInput" class="form-label">
                     Select your date :
@@ -40,7 +40,7 @@ const Home = () => {
                   <input type="date" class="form-control" id="dateInput" />
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-12">
+              <div className="col-lg-4 col-md-6 col-sm-12">
                 <div class="mb-3">
                   <label for="priceInput" class="form-label mb-4">
                     Max price :
