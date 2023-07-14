@@ -9,22 +9,42 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary fixed-top">
       <Container>
-        <Navbar.Brand href="#home" className='logo fw-bold'>
-          <MdOutlineTravelExplore className='icone'/>
+        <Navbar.Brand
+          href="#home"
+          className="logo fw-bold"
+          data-aos="fade-right"
+        >
+          <MdOutlineTravelExplore className="icone" />
           Travel.
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Package</Nav.Link>
-            <Nav.Link href="#home">Shop</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#home">Pages</Nav.Link>
-            <Nav.Link href="#link">News</Nav.Link>
-            <Nav.Link href="#link">Contact</Nav.Link>
+            <Nav.Link href="#home" data-aos="fade-down">
+              Home
+            </Nav.Link>
+            <Nav.Link href="#link" data-aos="fade-down">
+              Package
+            </Nav.Link>
+            <Nav.Link href="#home" data-aos="fade-down">
+              Shop
+            </Nav.Link>
+            <Nav.Link href="#link" data-aos="fade-down">
+              About
+            </Nav.Link>
+            <Nav.Link href="#home" data-aos="fade-down">
+              Pages
+            </Nav.Link>
+            <Nav.Link href="#link" data-aos="fade-down">
+              News
+            </Nav.Link>
+            <Nav.Link href="#link" data-aos="fade-down">
+              Contact
+            </Nav.Link>
           </Nav>
-            <Button className="bouton">BOOK NOW</Button>
+          <Button className="bouton" data-aos="fade-down">
+            BOOK NOW
+          </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

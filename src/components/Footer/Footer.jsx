@@ -11,11 +11,11 @@ const Footer = () => {
     <div className="footer container-fluid py-5 vh-75">
       <div className="d-flex justify-content-center align-items-center mb-5">
         <div className="row justify-content-center align-items-center">
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
             <p className="text-uppercase text-light">keep in touch</p>
             <h3 className="text-light">Travel with us</h3>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12">
+          <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up">
             <div className="d-flex justify-content-center align-items-baseline gap-2">
               <input
                 type="email"
@@ -34,7 +34,7 @@ const Footer = () => {
         <div class="card-body">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <h6 className="text-dark fw-bold">
+              <h6 className="text-dark fw-bold" data-aos="fade-up">
                 <MdOutlineTravelExplore className="icone" />
                 Travel.
               </h6>
@@ -45,13 +45,13 @@ const Footer = () => {
                 illum, ipsa veniam porro reprehenderit commodi voluptas.
               </p>
               <ul className="d-flex gap-2 list-unstyled">
-                <li>
+                <li data-aos="fade-up">
                   <FaFacebookF />
                 </li>
-                <li>
+                <li data-aos="fade-up">
                   <FaInstagram />
                 </li>
-                <li>
+                <li data-aos="fade-up">
                   <FaYoutube />
                 </li>
               </ul>
@@ -59,52 +59,67 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6 col-sm-12">
               <div className="row">
                 <div className="col-lg-4 col-md-4 col-sm-6">
-                  <h6 className="text-secondary text-uppercase">our agency</h6>
+                  <h6
+                    className="text-secondary text-uppercase"
+                    data-aos="fade-up"
+                  >
+                    our agency
+                  </h6>
                   <ul className="gap-2 list-unstyled">
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-6">
-                  <h6 className="text-secondary text-uppercase">our agency</h6>
+                  <h6
+                    className="text-secondary text-uppercase"
+                    data-aos="fade-up"
+                  >
+                    our agency
+                  </h6>
                   <ul className="gap-2 list-unstyled">
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
                   </ul>
                 </div>
                 <div className="col-lg-4 col-md-4 col-sm-6">
-                  <h6 className="text-secondary text-uppercase">our agency</h6>
+                  <h6
+                    className="text-secondary text-uppercase"
+                    data-aos="fade-up"
+                  >
+                    our agency
+                  </h6>
                   <ul className="gap-2 list-unstyled">
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
-                    <li>
+                    <li data-aos="fade-right">
                       <IoIosArrowForward /> Services
                     </li>
                   </ul>
@@ -116,10 +131,12 @@ const Footer = () => {
         <div class="card-footer pt-3 text-light">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <p className='text-uppercase'>best travel website</p>
+              <p className="text-uppercase">best travel website</p>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12">
-              <p className='text-uppercase'>copyright reserved - princetoutcouleur 2023</p>
+              <p className="text-uppercase">
+                copyright reserved - princetoutcouleur 2023
+              </p>
             </div>
           </div>
         </div>

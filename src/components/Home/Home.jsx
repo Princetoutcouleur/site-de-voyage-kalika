@@ -11,12 +11,14 @@ const Home = () => {
   return (
     <div className="home container-fluid vh-100 mt-5 d-flex justify-content-center align-items-center">
       <div className="w-100 container">
-        <p className="text-uppercase text-light">our packages</p>
-        <h1 className="text-light">
+        <p className="text-uppercase text-light" data-aos="fade-up">
+          our packages
+        </p>
+        <h1 className="text-light" data-aos="fade-up">
           Search your{" "}
           <span className=" border-bottom border-info border-3">Holiday</span>
         </h1>
-        <div class="card bg-light mt-5 p-3 mb-5">
+        <div class="card bg-light mt-5 p-3 mb-5" data-aos="fade-up">
           <div class="card-body">
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-12">
